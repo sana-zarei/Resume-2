@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+    <html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/style_rtl.css">
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="" class="nav__logo">سنا</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home nav__icon"></i>خانه
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>پروفایل
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="bx bx-book nav__icon"></i>تحصیلات
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-receipt nav__icon"></i>مهارت
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="bx bx-briefcase-alt nav__icon"></i>تجربه کاری
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class="bx bx-award nav__icon"></i>مدرک
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class="bx bx-link-external nav__icon"></i>منابع
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav__toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/perfil.jpg" alt="" class="home__img">
+                            
+                                <h1 class="home__title">سنا <b>زارعی</b></h1>
+                                <h3 class="home__profession">طراح و توسعه دهنده وب</h3>
+
+                                <!-- Button to download your CV Saved in the pdf folder. Available for Mobile. -->
+                                <div>
+                                    <a href="assets/pdf/ResumeCv.pdf" download="" class="home__button-movil">دانلود</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i> ایران فارس شیراز
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i> sanazarei79@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i> <bdi dir="ltr">(+98) 930156++++</bdi>
+                                </span>
+                            </div>
+
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">شبکه های اجتماعی</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://github.com/sana-zarei" target="_blank" class="social__link">
+                                <i class="bx bxl-github social__icon"></i>sana-zarei@   
+                           </a>
+                           <a href="https://linkedin.com/Sanaa_zrr" target="_blank" class="social__link">
+                                <i class="bx bxl-linkedin-square social__icon"></i>Sanaa_zrr@   
+                            </a>
+                            <a href="https://skype.com/Sanaa_zrr" target="_blank" class="social__link">
+                                <i class="bx bxl-skype social__icon"></i>Sanaa_zrr@   
+                            </a>
+                            <a href="https://t.me/Sanaa_zrr" target="_blank" class="social__link">
+                                <i class="bx bxl-telegram social__icon"></i>Sanaa_zrr@   
+                           </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">پروفایل</h2>
+
+                        <p class="profile__description">
+                            سلام، من سنا زارعی، فارغ‌التحصیل مهندسی کامپیوتر متولد سال ۱۳۷9 هستم. به عنوان یک مهندس نرم‌افزار مشتاق و پرشور، در توسعه Backend و طراحی  APIهای  RESTful، همواره در جستجوی یادگیری و پیشرفت هستم. تسلط بر زبان برنامه‌نویسی Python و استفاده از ابزارهایی نظیر Git و Docker، همچنین فریمورک‌هایی مانند Django و Django Rest Framework، بخشی از دانش فنی من را تشکیل می‌دهد.
+                            من از برنامه‌نویسی لذت می‌برم و به کار گروهی و توسعه علاقه‌مندم. اشتیاق من برای حل چالش‌ها و کمک به تیم برای دستیابی به بهترین نتایج، انگیزه‌ای است که مرا در مسیر حرفه‌ای هدایت می‌کند. متعهد به بهبود مستمر مهارت‌هایم هستم و همیشه آماده‌ام تا تلاش خود را برای پیشبرد اهداف تیم به کار گیرم.
+                        </p>
+
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">تحصیلات</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">کارشناسی مهندسی کامپیوتر</h3>
+                                    <span class="education__studies">دانشگاه آزاد اسلامی واحد شیراز</span>
+                                    <span class="education__year">2023 - 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">مهارت ها</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Bootstrap
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Figma
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Python
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Django
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Django Rest Framework
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> PostgreSQL
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">تجربه</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">توسعه‌دهنده بک‌اند (۳ ماه)</h3>
+                                    <span class="experience__company">شرکت نرم‌افزاری رایانه‌گستر پارسیان</span>
+                                    <p class="experience__description">
+                                        مسئولیت: توسعه  API های REST برای یک اپلیکیشن تجارت الکترونیک با استفاده از Django Rest Framework.
+                                        <br>
+                                            دستاورد: بهینه‌سازی عملکرد API‌ ها و کاهش زمان پاسخ به درخواست‌ها تا ۲۰ درصد.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">کارآموز توسعه وب (۴ ماه)</h3>
+                                    <span class="experience__company">شرکت فناوری اطلاعات هوشمند سپهر</span>
+                                    <p class="experience__description">
+                                        مسئولیت: همکاری در توسعه و رفع اشکال یک سیستم مدیریت محتوا (CMS) مبتنی بر Django.
+                                        <br>
+                                        دستاورد: ایجاد قابلیت‌های جدید برای سیستم مدیریت کاربران و بهبود تجربه کاربری.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">ساخت وب‌سایت وبلاگ‌نویسی با Django (۲ ماه)</h3>
+                                    <span class="experience__company">پروژه شخصی</span>
+                                    <p class="experience__description">
+                                        مسئولیت: طراحی و پیاده‌سازی وب‌سایت وبلاگ با امکان ارسال مطلب توسط کاربران.
+                                        <br>
+                                        دستاورد: پیاده‌سازی یک سیستم کامنت و امکان جستجوی پیشرفته در مطالب وبلاگ.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">گواهینامه ها و مدرک</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">مقدمه ای بر علوم کامپیوتر یا <b>CS50X</b></h3>
+                                <p class="certificate__description">
+                                    این دوره به شما می آموزد که چگونه مسائل را چه با کد و چه بدون کد با تاکید بر درستی، طراحی و سبک حل کنید.
+                                </p>
+                                <a href="assets/pdf/CS50x.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده مدرک دوره</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">مقدمه ای بر برنامه نویسی با پایتون یا <b>CS50P</b>
+                                </h3>
+                                <p class="certificate__description">
+                                    مقدمه ای بر برنامه نویسی با استفاده از پایتون، یک زبان محبوب برای برنامه نویسی همه منظوره، علوم داده، برنامه نویسی وب
+                                </p>
+                                <a href="assets/pdf/CS50P.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده مدرک دوره</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">مقدمه ای بر هوش مصنوعی با پایتون یا <b>CS50AI</b></h3>
+                                <p class="certificate__description">
+                                    در این دوره مقدماتی هوش مصنوعی، استفاده از یادگیری ماشین در پایتون را بیاموزید.
+                                </p>
+                                <a href="assets/pdf/CS50AI.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده مدرک دوره</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">مقدمه ای بر پایگاه های داده با SQL یا <b>CS50SQL</b></h3>
+                                <p class="certificate__description">
+                                    مقدمه ای بر پایگاه های داده با استفاده از زبانی به نام SQL.
+                                </p>
+                                <a href="assets/pdf/CS50 SQL.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده مدرک دوره</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">برنامه نویسی وب با پایتون و جاوا اسکریپت یا <b>CS50W</b></h3>
+                                <p class="certificate__description">
+                                    این دوره از جایی شروع می‌شود که CS50 پایان می‌یابد، و عمیق‌تر به طراحی و اجرای برنامه‌های وب با پایتون، جاوا اسکریپت و SQL با استفاده از چارچوب‌هایی مانند جنگو، React و Bootstrap می‌پردازد.
+                                </p>
+                                <a href="assets/pdf/CS50 SQL.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده مدرک دوره</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== PROJECTS ==========-->
+                    <section class="project section" id="certificates">
+                        <h2 class="section-title"> نمونه کار </h2>
+
+                        <div class="project__container bd-grid">
+                            <div class="project__content">
+                                <h3 class="project__title">وبلاگ شخصی با جنگو</h3>
+                                <p class="project__description">
+                                    توضیحات: طراحی و توسعه یک سیستم وبلاگ با قابلیت‌هایی شامل ایجاد، ویرایش، و حذف پست‌ها، مدیریت دیدگاه‌ها و پشتیبانی از تگ‌ها و دسته‌بندی‌ها.
+                                    <br>
+                                    فناوری‌ها: Django, HTML, CSS, JavaScript.
+                                </p>
+                                <a href="assets/pdf/CS50x.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده پروژه</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title"> برنامه کوییز ساده (Simple Quiz App) </h3>
+                                <p class="project__description">
+                                    توضیحات: طراحی و توسعه یک برنامه وب کوییز با قابلیت انتخاب مجموعه سوالات، نمایش سوالات به صورت تصادفی و ثبت امتیازات کاربران.
+                                    <br>
+                                    فناوری‌ها: Django, HTML, CSS, JavaScript, SQLite.
+                                </p>
+                                    <a href="assets/pdf/CS50x.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده پروژه</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title"> یادآور تولد (Birthday Reminder) </h3>
+                                <p class="project__description">
+                                    توضیحات: ساخت یک برنامه یادآوری تولد که به کاربران امکان می‌دهد تاریخ‌های تولد دوستان و خانواده را ثبت و برنامه بر اساس آن یادآوری‌هایی را ارسال کند.
+                                    <br>
+                                    فناوری‌ها: Django, Python, Django Templates, SQLite.
+                                </p>
+                                <a href="assets/pdf/CS50x.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده پروژه</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title"> برنامه کارهای روزمره (Todo App) </h3>
+                                <p class="project__description">
+                                    توضیحات: توسعه یک برنامه وب برای مدیریت کارهای روزمره با امکان افزودن، ویرایش و حذف کارها، همچنین قابلیت دسته‌بندی و فیلتر کردن کارها.
+                                    <br>
+                                    فناوری‌ها: Django, JavaScript, Ajax, Bootstrap, SQLite.
+                                </p>
+                                <a href="assets/pdf/CS50x.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده پروژه</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title"> برنامه هواشناسی (Weather App) </h3>
+                                <p class="project__description">
+                                    توضیحات: ساخت یک برنامه وب هواشناسی که اطلاعات آب و هوایی را از یک API عمومی دریافت کرده و آن را برای کاربران به نمایش می‌گذارد.
+                                    <br>
+                                    فناوری‌ها: Django, Python, REST API (OpenWeatherMap), JavaScript, HTML, CSS.
+                                </p>
+                                    <a href="assets/pdf/CS50x.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده پروژه</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title"> دفترچه تماس (Contact Book) </h3>
+                                <p class="project__description">
+                                    توضیحات: توسعه یک برنامه دفترچه تماس وب که امکان ذخیره‌سازی، جستجو و مدیریت اطلاعات تماس را فراهم می‌کند.
+                                    <br>
+                                    فناوری‌ها: Django, Python, Django Forms, HTML, CSS, SQLite.
+                                </p>
+                                    <a href="assets/pdf/CS50x.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده پروژه</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title"> API یادداشت‌برداری (Note-taking API) </h3>
+                                <p class="project__description">
+                                    توضیحات: ایجاد یک API برای یک اپلیکیشن یادداشت‌برداری که به کاربران این امکان را می‌دهد تا یادداشت‌های خود را با قابلیت‌های اساسی نظیر ایجاد، مشاهده، ویرایش و حذف مدیریت کنند.
+                                    <br>
+                                    فناوری‌ها: Django REST Framework، استفاده از مدل‌های ساده Django، پیاده‌سازی توکن‌های احراز هویت برای امنیت API.
+                                </p>
+                                    <a href="assets/pdf/CS50x.png" target="_blank" class="resume__button-link">
+                                    <b>مشاهده پروژه</b> <i class="ri-external-link-line"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">منابع</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">علی رضایی</span>
+                                <h3 class="references__title">شرکت نرم‌افزاری رایانه‌گستر پارسیان</h3>
+                                <ul class="references__content">
+                                    <li> <bdi dir="ltr">(+98) 930156++++</bdi> </li>
+                                    <li> alirezaei@rayanegostar.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">سارا محمدی</span>
+                                <h3 class="references__title">شرکت فناوری اطلاعات هوشمند سپهر</h3>
+                                <ul class="references__content">
+                                    <li> <bdi dir="ltr">(+98) 930156++++</bdi> </li>
+                                    <li> saramohammadi@sepehrit.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">زبان</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> فارسی
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> انگلیسی
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> آلمانی
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">علاقه</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="bx bx-headphone interests__icon"></i>
+                                <span class="interests__name">آهنگ</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bxs-plane-alt interests__icon"></i>
+                                <span class="interests__name">سفر</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-book interests__icon"></i>
+                                <span class="interests__name">خواندن</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-dumbbell interests__icon"></i>
+                                <span class="interests__name">تناسب اندام</span>
+                            </div>
+                            
+                            <div class="interests__content">
+                                <i class="bx bxs-camera interests__icon"></i>
+                                <span class="interests__name">عکاسی</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
