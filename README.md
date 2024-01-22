@@ -8,8 +8,7 @@
 - قابلیت صادر کردن وبسایت رزومه به PDF
   
  **لیست کارهای قابل انجام:**
-
-<ul style="list-style-type:none; direction= rtl;">
+<ul style="list-style-type:none; direction: rtl;">
     <li><input type="checkbox" checked disabled> - [x] انتشار نسخه اولیه وبسایت </li>
     <li><input type="checkbox" checked> - [ ] رفع مشکل صادر کردن PDF </li>
     <li><input type="checkbox" checked> - [ ] بهینه‌سازی برای SEO </li>
