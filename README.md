@@ -5,14 +5,16 @@
 - دارای ناوبری موبایل با آیکون‌ها
 - اسکرول روان در هر بخش در نسخه موبایل
 - شامل تم روشن و تاریک
+- انتخاب اتوماتیک تم لایت و دارک بر اساس ساعت
 - قابلیت صادر کردن وبسایت رزومه به PDF
   
  ### لیست کارهای قابل انجام :
 <ul style="list-style-type:none;" dir="rtl">
     <li><input type="checkbox" checked disabled> - [x] انتشار نسخه اولیه وبسایت </li>
-    <li><input type="checkbox" checked> - [ ] رفع مشکل صادر کردن PDF </li>
+  <li><input type="checkbox" checked disabled> - [x] انتخاب اتوماتیک تم لایت و دارک بر اساس ساعت </li>
+    <li><input type="checkbox" checked> - [ ] رفع مشکل خروجی </li>
     <li><input type="checkbox" checked> - [ ] بهینه‌سازی برای SEO </li>
-    <li><input type="checkbox" checked> - [ ] بهینه‌سازی عملکرد </li>
+    <li><input type="checkbox" checked> - [ ] بهینه‌سازی عملکرد وبسایت </li>
     <li><input type="checkbox" checked> - [ ] به‌روزرسانی مداوم محتوا </li>
 </ul>
 
@@ -31,9 +33,11 @@
 <p align="center">
   <img src="Screenshot/ScreenShot2.png" width="50%" alt="حالت موبایل + تم روشن">
 </p>
+
 <p align="center">
   <strong>حالت موبایل + تم تاریک</strong>
 </p>
+
 <p align="center">
   <img src="Screenshot/ScreenShot3.png" width="50%" alt="حالت موبایل + تم تاریک">
 </p>
